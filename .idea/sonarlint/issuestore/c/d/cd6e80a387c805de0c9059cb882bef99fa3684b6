@@ -1,0 +1,17 @@
+
+1
+java:S3626"Remove this redundant jump.(ûÁÝ…
+S	java:S106"9Replace this use of System.out or System.err by a logger.(“Ëéøþÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(½˜•Ì
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚òû—úÿÿÿÿ
+9
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD
+I
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­ÃªÞýÿÿÿÿ
+R
+java:S2589"7Remove this expression which always evaluates to "true"(É´ì›ùÿÿÿÿ
+_
+java:S2583"DChange this condition so that it does not always evaluate to "false"(ÓÁýºüÿÿÿÿ
+_
+java:S2583"DChange this condition so that it does not always evaluate to "false"(É£ã¥øÿÿÿÿ

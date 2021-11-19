@@ -1,0 +1,13 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(û¹Ìÿÿÿÿÿ
+7	java:S131""Add a default case to this switch.(ç™Œö
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿‰œ¯
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÑæöÏıÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ê´à8á¦·Ò/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÃŒ™øÿÿÿÿ8Ûô·Ò/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(İÖ‚ğûÿÿÿÿ8­Ä·Ò/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ôù®¿8Ùª·Ò/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ºÂ¤‹üÿÿÿÿ8”‘·Ò/
+j
+java:S1192"HDefine a constant instead of duplicating this literal "laboral" 4 times.(ÑæöÏıÿÿÿÿ8İô·Ò/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğØ
