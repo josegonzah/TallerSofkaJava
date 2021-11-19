@@ -70,6 +70,18 @@ public class Persona {
         return info;
     }
 
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", dni=" + dni +
+                ", sexo=" + sexo +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                '}';
+    }
+
     private void generaDNI(){
         this.dni = ThreadLocalRandom.current().nextInt(10000000, 100000000);
     }

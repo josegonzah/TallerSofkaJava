@@ -1,29 +1,40 @@
 package Ejercicio12;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Ejercicio12 {
     public static void main(String[] args) {
+        System.out.println("Ingresa la primera palabra");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese la string 1: ");
-        String string1 = scanner.nextLine();
-        System.out.println("Ingrese la string 2: ");
-        String string2 = scanner.nextLine();
-        char[] chars1 = string1.toCharArray();
-        char[] chars2 = string2.toCharArray();
-        boolean equalsTo = true;
-        for (char ch: chars1){
-            for (char ch1 : chars2){
-                if(ch != ch1){
-                    System.out.println("Diferencia: " + ch + "diferente a: " + ch1);
-                    equalsTo = false;
-                }
+        String palabra1 = scanner.nextLine();
+        String[] array1 = palabra1.toLowerCase().split("");
+        System.out.println("Ingresa la segunda palabra");
+        String palabra2 = scanner.nextLine();
+        String[] array2 = palabra2.toLowerCase().split("");
+        List<String> arrayDifference = new ArrayList();
+        int lenBucle;
+        String[] longestArray;
+        String[] shortestArray;
+        if (array1.length > array2.length) {
+            lenBucle = array1.length;
+            longestArray = array1;
+            shortestArray = array2;
+        } else {
+            lenBucle = array2.length;
+            longestArray = array2;
+            shortestArray = array1;
+        }
+
+        for (int i = 0; i < lenBucle; ++i) {
+            if (!Arrays.asList(shortestArray).contains(longestArray[i])) {
+                arrayDifference.add(longestArray[i]);
             }
         }
-        if (equalsTo){
-            System.out.println("Es igual la cadena 1 con la 2");
-            return;
-        }
-        System.out.println("Las cadenas son diferentes");
+
+        System.out.println(arrayDifference);
     }
 }
+

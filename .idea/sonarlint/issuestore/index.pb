@@ -23,3 +23,11 @@ Z
 *src/main/java/Ejercicio10/Ejercicio10.java,2\a\2a492b6acf76782ec3ce7c5da6ecfe604949c237
 Z
 *src/main/java/Ejercicio11/Ejercicio11.java,e\d\ed101335b4bd17acb50d07d3a648a590b80fe336
+Z
+*src/main/java/Ejercicio13/Ejercicio13.java,3\5\35af82b9549fef5d50dd0fe3a64f629e5470cd5b
+Z
+*src/main/java/Ejercicio14/Ejercicio14.java,b\f\bf56b46b56f83d84d106dc32bb7039f371f3dd24
+Z
+*src/main/java/Ejercicio15/Ejercicio15.java,1\d\1d3c00a5030b8478d0562780a076959b884bf350
+W
+'src/main/java/Ejercicio17/Lavadora.java,d\f\df56bc8033f1773caf1133da02bb577ffbbb3168
